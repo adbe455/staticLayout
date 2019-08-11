@@ -108,7 +108,7 @@ font-family: sans-serif;
   vertical-align: top;
   height: 100px;
   width: 500px;
-  padding-top: 34px;
+  padding-top: 20px;
   text-decoration-line: none;
 }
 
@@ -124,6 +124,8 @@ font-family: sans-serif;
   height: 5px;
   width: 500px;
   background-color: red;
+  position: relative;
+  top: 14px;
 }
 
 .middlebox {
