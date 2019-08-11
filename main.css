@@ -1,31 +1,225 @@
-.background{
-  background-image: url("popsignuptwoweeks.jpg");
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-  position: absolute;
-  background-repeat: no-repeat;
-  background-position: top;
-  background-attachment: scroll;
-  /* box-shadow:  */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
-/* .backgroundBorder{
-  height:100%;
-  width: 100%;
-  border-radius: 50%;
-  border-width: 500px;
-  border-style: solid;
-  border-color: rgb(0, 0, 0);opacity:0.2;
-} */
+.topbox {
+  height: 90vh;
+  width: 100vw;
+}
 
-.toplogo{
-  background-image: url("netflix_logo.png");
-  z-index: 1;
+.background {
+  height: 90vh;
+  width: 100vw;
+  position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background: radial-gradient(transparent, black), url('./assets/popsignuptwoweeks.jpg');
+  transform: scale(1.1);
+}
+
+.toplogo {
+  background-image: url('./assets/netflix_logo.png');
   height: 100px;
   width: 200px;
   background-size: cover;
-  position: fixed;
-  left: 44.5%;
+  position: absolute;
+  left: 44vw;
   top: -1%;
 }
+
+#login {
+  background-color: rgb(210, 0, 0);
+  border-radius: 3px;
+  font-family: sans-serif;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  position: absolute;
+  top: 20px;
+  right: 60px;
+}
+
+.textbox1 {
+  bottom: 82%;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.title {
+  font-size: 5em;
+  font-family: sans-serif;
+  font-weight: bold;
+  height: 50px;
+}
+
+.blurb {
+  font-size: 2em;
+  font-family: sans-serif;
+}
+
+.tryboxbig {
+position: relative;
+text-align: center;
+font-family: sans-serif;
+}
+
+#trytextbig {
+  background-color: rgb(210, 0, 0);
+  border-radius: 3px;
+  font-size: 2em;
+  word-spacing: 4px;
+  letter-spacing: 2px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+#trytextbig:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+.chevron {
+  font-size: 1.5em;
+}
+
+.bar {
+  background-color: rgb(20, 20, 20);
+  height: 150px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  border-bottom: 2px solid rgb(50, 50, 50);
+}
+
+.barbox {
+  display: inline-block;
+  font-size: 1.05em;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: rgb(75, 75, 75);
+  line-height: 0px;
+  vertical-align: top;
+  height: 100px;
+  width: 500px;
+  padding-top: 34px;
+  text-decoration-line: none;
+}
+
+.barbox:hover {
+  color: white;
+}
+
+#barbox1 {
+  color: white;
+}
+
+#redline {
+  height: 5px;
+  width: 500px;
+  background-color: red;
+}
+
+.middlebox {
+  height: 70vh;
+  width: 100vw;
+  background-color: black;
+}
+
+.middleblurb {
+  color: white;
+  position: relative;
+  font-family: sans-serif;
+  font-size: 2em;
+  line-height: 8px;
+  top: 200px;
+  left: 290px;
+  margin-top: -50px;
+  text-align: left;
+}
+
+.tryboxsmall {
+  position: relative;
+  text-align: left;
+  font-family: sans-serif;
+  top: 30px;
+  }
+  
+  #trytextsmall {
+    background-color: rgb(210, 0, 0);
+    border-radius: 3px;
+    font-size: 0.4em;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  #trytextsmall:hover {
+    background-color: rgb(255, 0, 0);
+  }
+
+  .cancelanytime {
+    background-image: url(./assets/cancelanytime.png);
+    height: 400px;
+    width: 550px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 300px;
+  }
+
+  .bottombox {
+    background-color: black;
+  }
+
+  .questions {
+    position: relative;
+    color: rgb(160, 160, 160);
+    margin: 0;
+    padding-left: 5px;
+    font-family: sans-serif;
+    text-decoration: none;
+  }
+
+  .bottomflexbox {
+    left: 23vw;
+    position: relative;
+    display: flex;
+    align-content: space-between;
+    justify-content: left;
+    line-height: 30px;
+  }
+
+  .flexitem {
+    list-style: none;
+    margin-top: 5px;
+    margin-left: 0px;
+    padding: 5px;
+    height: 300px;
+    width: 250px;
+  }
+
+  .link {
+    text-decoration: none;
+    color: rgb(160, 160, 160);
+    font-size: 0.8em;
+    font-family: sans-serif;
+  }
+
+  .languagebox {
+    position: absolute;
+    top: 200%;
+    left: 23vw;
+    background-color: black;
+  }
