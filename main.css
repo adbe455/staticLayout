@@ -198,6 +198,10 @@ font-family: sans-serif;
     text-decoration: none;
   }
 
+  #questionslink:hover {
+    text-decoration-line: underline;
+  }
+
   .bottomflexbox {
     left: 23vw;
     position: relative;
@@ -221,6 +225,10 @@ font-family: sans-serif;
     color: rgb(160, 160, 160);
     font-size: 0.8em;
     font-family: sans-serif;
+  }
+
+  .link:hover {
+    text-decoration-line: underline;
   }
 
   .languagebox {
